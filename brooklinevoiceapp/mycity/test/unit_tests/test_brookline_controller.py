@@ -25,3 +25,4 @@ class BrooklineControllerUnitTestCase(base.BaseTestCase):
         self.assertEqual(response.output_speech, expected_output_speech)
         self.assertEqual(response.card_title, expected_card_title)
         self.assertIsNone(response.reprompt_text)
+        self.assertTrue(False)
